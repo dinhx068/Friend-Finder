@@ -9,7 +9,7 @@
 // 4 Somewhat disagree 
 // 5 Strongly disagree
 // Questions:
-// 1. I really enjoy large parties and gatherings
+// 1. I love to help others
 // 2. I am ambitious
 // 3. I feel uneasy if I am at the center of attention
 // 4. I have a messy room
@@ -17,9 +17,9 @@
 // 6. I enjoy videogames
 // 7. I tell the truth 
 // 8. I do more than what's expected of me
-// 8. I work hard
+// 8. I like order
 // 9. I am easily annoyed
-// 10. I love to help others
+// 10. I really enjoy large parties and gatherings
 
 var friendsArray = [
     {
