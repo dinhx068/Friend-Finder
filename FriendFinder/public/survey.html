@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <title>Survey</title>
 
-  <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
@@ -32,112 +32,110 @@
     <hr>
 
     <div class="row">
-      <div class="col-lg-6">
-        <!-- Reservation Page -->
+      <div class="col-lg-12">
         <div class="card">
           <div class="card-header">
-            Questions
+            Questions (select an option for each)
           </div>
           <div class="card-body">
             <h3><strong>Question 1</strong></h3>
-              <h4>I love to help others</h4>
-              <select class="chosen-select" id="q1" style="display: none;">
+              <h4>I love to help others.</h4>
+              <select class="chosen-select" id="q1">
                 <option value=""></option>
-                <option value="1">1 Strongly agree</option>
-                <option value="2">2 Somewhat agree</option>
-                <option value="3">3 Neutral</option>
-                <option value="4">4 Somewhat disagree</option>
-                <option value="5">5 Strongly disagree</option>
+                <option value="1">Strongly agree</option>
+                <option value="2">Somewhat agree</option>
+                <option value="3">Neutral</option>
+                <option value="4">Somewhat disagree</option>
+                <option value="5">Strongly disagree</option>
               </select>
             <h3><strong>Question 2</strong></h3>
-              <h4>I am ambitious</h4>
-              <select class="chosen-select" id="q2" style="display: none;">
+              <h4>I am ambitious.</h4>
+              <select class="chosen-select" id="q2">
                 <option value=""></option>
-                <option value="1">1 Strongly agree</option>
-                <option value="2">2 Somewhat agree</option>
-                <option value="3">3 Neutral</option>
-                <option value="4">4 Somewhat disagree</option>
-                <option value="5">5 Strongly disagree</option>
+                <option value="1">Strongly agree</option>
+                <option value="2">Somewhat agree</option>
+                <option value="3">Neutral</option>
+                <option value="4">Somewhat disagree</option>
+                <option value="5">Strongly disagree</option>
               </select>
             <h3><strong>Question 3</strong></h3>
-              <h4>I feel uneasy if I am at the center of attention</h4>
-              <select class="chosen-select" id="q3" style="display: none;">
+              <h4>I feel uneasy if I am at the center of attention.</h4>
+              <select class="chosen-select" id="q3">
                 <option value=""></option>
-                <option value="1">1 Strongly agree</option>
-                <option value="2">2 Somewhat agree</option>
-                <option value="3">3 Neutral</option>
-                <option value="4">4 Somewhat disagree</option>
-                <option value="5">5 Strongly disagree</option>
+                <option value="2">Somewhat agree</option>
+                <option value="3">Neutral</option>
+                <option value="4">Somewhat disagree</option>
+                <option value="5">Strongly disagree</option>
               </select>
             <h3><strong>Question 4</strong></h3>
-              <h4>I have a messy room</h4>
-              <select class="chosen-select" id="q4" style="display: none;">
+              <h4>I have a messy room.</h4>
+              <select class="chosen-select" id="q4">
                 <option value=""></option>
-                <option value="1">1 Strongly agree</option>
-                <option value="2">2 Somewhat agree</option>
-                <option value="3">3 Neutral</option>
-                <option value="4">4 Somewhat disagree</option>
-                <option value="5">5 Strongly disagree</option>
+                <option value="1">Strongly agree</option>
+                <option value="2">Somewhat agree</option>
+                <option value="3">Neutral</option>
+                <option value="4">Somewhat disagree</option>
+                <option value="5">Strongly disagree</option>
               </select>
             <h3><strong>Question 5</strong></h3>
-              <h4>I approach life in an easy-going manner</h4>
-              <select class="chosen-select" id="q5" style="display: none;">
+              <h4>I approach life in an easy-going manner.</h4>
+              <select class="chosen-select" id="q5">
                 <option value=""></option>
-                <option value="1">1 Strongly agree</option>
-                <option value="2">2 Somewhat agree</option>
-                <option value="3">3 Neutral</option>
-                <option value="4">4 Somewhat disagree</option>
-                <option value="5">5 Strongly disagree</option>
+                <option value="1">Strongly agree</option>
+                <option value="2">Somewhat agree</option>
+                <option value="3">Neutral</option>
+                <option value="4">Somewhat disagree</option>
+                <option value="5">Strongly disagree</option>
               </select>
             <h3><strong>Question 6</strong></h3>
-              <h4>I enjoy videogames</h4>
-              <select class="chosen-select" id="q6" style="display: none;">
+              <h4>I enjoy videogames.</h4>
+              <select class="chosen-select" id="q6">
                 <option value=""></option>
-                <option value="1">1 Strongly agree</option>
-                <option value="2">2 Somewhat agree</option>
-                <option value="3">3 Neutral</option>
-                <option value="4">4 Somewhat disagree</option>
-                <option value="5">5 Strongly disagree</option>
+                <option value="1">Strongly agree</option>
+                <option value="2">Somewhat agree</option>
+                <option value="3">Neutral</option>
+                <option value="4">Somewhat disagree</option>
+                <option value="5">Strongly disagree</option>
               </select>
             <h3><strong>Question 7</strong></h3>
-             <h4>I tell the truth </h4>
-             <select class="chosen-select" id="q7" style="display: none;">
+             <h4>I tell the truth.</h4>
+             <select class="chosen-select" id="q7">
                 <option value=""></option>
-                <option value="1">1 Strongly agree</option>
-                <option value="2">2 Somewhat agree</option>
-                <option value="3">3 Neutral</option>
-                <option value="4">4 Somewhat disagree</option>
-                <option value="5">5 Strongly disagree</option>
+                <option value="1">Strongly agree</option>
+                <option value="2">Somewhat agree</option>
+                <option value="3">Neutral</option>
+                <option value="4">Somewhat disagree</option>
+                <option value="5">Strongly disagree</option>
               </select>
             <h3><strong>Question 8</strong></h3>
-              <h4>I do more than what's expected of me</h4>
-              <select class="chosen-select" id="q8" style="display: none;">
+              <h4>I do more than what's expected of me.</h4>
+              <select class="chosen-select" id="q8">
                 <option value=""></option>
-                <option value="1">1 Strongly agree</option>
-                <option value="2">2 Somewhat agree</option>
-                <option value="3">3 Neutral</option>
-                <option value="4">4 Somewhat disagree</option>
-                <option value="5">5 Strongly disagree</option>
+                <option value="1">Strongly agree</option>
+                <option value="2">Somewhat agree</option>
+                <option value="3">Neutral</option>
+                <option value="4">Somewhat disagree</option>
+                <option value="5">Strongly disagree</option>
               </select>
             <h3><strong>Question 9</strong></h3>
-              <h4>I am easily annoyed</h4>
-              <select class="chosen-select" id="q9" style="display: none;">
+              <h4>I am easily annoyed.</h4>
+              <select class="chosen-select" id="q9">
                 <option value=""></option>
-                <option value="1">1 Strongly agree</option>
-                <option value="2">2 Somewhat agree</option>
-                <option value="3">3 Neutral</option>
-                <option value="4">4 Somewhat disagree</option>
-                <option value="5">5 Strongly disagree</option>
+                <option value="1">Strongly agree</option>
+                <option value="2">Somewhat agree</option>
+                <option value="3">Neutral</option>
+                <option value="4">Somewhat disagree</option>
+                <option value="5">Strongly disagree</option>
               </select>
             <h3><strong>Question 10</strong></h3>
-              <h4>I really enjoy large parties and gatherings</h4>
-              <select class="chosen-select" id="q10" style="display: none;">
+              <h4>I really enjoy large parties and gatherings.</h4>
+              <select class="chosen-select" id="q10">
                 <option value=""></option>
-                <option value="1">1 Strongly agree</option>
-                <option value="2">2 Somewhat agree</option>
-                <option value="3">3 Neutral</option>
-                <option value="4">4 Somewhat disagree</option>
-                <option value="5">5 Strongly disagree</option>
+                <option value="1">Strongly agree</option>
+                <option value="2">Somewhat agree</option>
+                <option value="3">Neutral</option>
+                <option value="4">Somewhat disagree</option>
+                <option value="5">Strongly disagree</option>
               </select>
             <button type="submit" class="btn btn-primary submit" style="float:right;"><i class="far fa-check-circle"></i> Submit</button>
           </div>
@@ -145,66 +143,93 @@
       </div>
     </div>
 
-
     <footer class="footer">
       <div class="container">
         <p>
           <a href="/api/home">API All Friends List</a> | 
-          <a href="/api/waitlist">Github Repo</a>
+          <a href="https://github.com/dinhx068/Friend-Finder">Github Repo</a>
       </div>
     </footer>
 
-  </div>
+  <!-- Modal Form Error -->
+  <div id="modal-form-error" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Please fill out all of the fields</p>
+      </div>
+  </div> <!-- Modal Form Error -->
+
+  </div> <!-- End of container -->
 
 </body>
 
 </html>
 
-<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
 <script type="text/javascript">
-  // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
-  // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
-  // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
-  // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+  
+  // Basic modal when a field is not inputted or selected
+  function modalError() {
+    // Get the modal
+    let modal = document.getElementById('modal-form-error');
+    // Get the <span> element that closes the modal
+    let span = document.getElementsByClassName("close")[0];
+    // Opens the modal 
+    modal.style.display = "block";
+    // When the user clicks on <span> (x), close the modal
+    $(`.close`).on(`click`, function() {
+      modal.style.display = "none";
+    });
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target === modal) {
+          modal.style.display = "none";
+        }
+    }
+  }
 
+  // Make sure the user has input every field
   $(".submit").on("click", function(event) {
     event.preventDefault();
+    
+    function validateForm() {
+      var isValid = true;
 
-    // Here we grab the form elements
-    var newReservation = {
-      customerName: $("#reserve-name").val().trim(),
-      phoneNumber: $("#reserve-phone").val().trim(),
-      customerEmail: $("#reserve-email").val().trim(),
-      customerID: $("#reserve-unique-id").val().trim()
-    };
+      $(".form-control").each(function() {
+        if ($(this).val() === "") {
+          isValid = false;
+        }
+      });
 
-    console.log(newReservation);
+      $(".chosen-select").each(function() {
+        if ($(this).val() === "") {
+          isValid = false;
+        }
+      });
+      return isValid;
+    }
+
+    // Create an object for user data
+    if (validateForm()) {
+      var newPerson = {
+        name: $("#name").val().trim(),
+        photo: $("#photo").val().trim(),
+        scores: [
+          $('#q1').val(), $('#q2').val(), $('#q3').val(), $('#q4').val(), $('#q5').val(),
+          $('#q6').val(), $('#q7').val(), $('#q8').val(), $('#q9').val(), $('#q10').val()
+        ]
+      };
+    } else {
+      modalError();
+    }
 
     // This line is the magic. It"s very similar to the standard ajax function we used.
     // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
     // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
     // depending on if a tables is available or not.
 
-    $.post("/api/tables", newReservation,
-      function(data) {
-
-        // If a table is available... tell user they are booked.
-        if (data) {
-          alert("Yay! You are officially booked!");
-        }
-
-        // If a table is available... tell user they on the waiting list.
-        else {
-          alert("Sorry you are on the wait list");
-        }
-
-        // Clear the form when submitting
-        $("#reserve-name").val("");
-        $("#reserve-phone").val("");
-        $("#reserve-email").val("");
-        $("#reserve-unique-id").val("");
-
-      });
+    // $.post("/api/tables", newPerson, function(data) {
+    // });
 
   });
 
