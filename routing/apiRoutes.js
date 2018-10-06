@@ -1,4 +1,4 @@
-var friends = require("../data/friends");
+const friends = require("../app/data/friends");
 
 module.exports = function(app) {
 
